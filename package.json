@@ -4,8 +4,12 @@
   "description": "A simple node application to learn how to use docxjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Josh Potts",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^7.1.1"
+  }
 }
